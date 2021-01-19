@@ -1,0 +1,194 @@
+{
+    "type": "bundle",
+    "id": "bundle--30b42d0f-f414-4962-a48d-5bff6881ee8f",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--726e3f60-da3e-4da2-bff8-5c9dcb48e15e",
+            "created": "2021-01-19T17:26:45.852302Z",
+            "modified": "2021-01-19T17:26:45.852302Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--bfb7cc67-be5c-4144-a2a2-af24d1913bad",
+            "target_ref": "malware--95cc2e6e-e033-4b42-8c98-3f5c50545f08"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--7a899e23-fd49-4f2c-a0ce-cdb93c950ec2",
+            "created": "2021-01-19T17:26:45.852427Z",
+            "modified": "2021-01-19T17:26:45.852427Z",
+            "relationship_type": "consists-of",
+            "source_ref": "infrastructure--29ac9e4f-ac0e-403c-8a09-54458f547bac",
+            "target_ref": "domain-name--69f4a959-d7c2-5424-8526-2d9ee1c50cf7"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--63f08eb8-7ea3-42f5-87b9-eae55f975db9",
+            "created": "2021-01-19T17:26:45.852538Z",
+            "modified": "2021-01-19T17:26:45.852538Z",
+            "relationship_type": "consists-of",
+            "source_ref": "infrastructure--29ac9e4f-ac0e-403c-8a09-54458f547bac",
+            "target_ref": "domain-name--0146452f-a6fb-539e-83ec-7a3c208c3d53"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e71b11d9-74c1-4e3c-8efb-1f66e54aacbc",
+            "created": "2021-01-19T17:26:45.852641Z",
+            "modified": "2021-01-19T17:26:45.852641Z",
+            "relationship_type": "consists-of",
+            "source_ref": "infrastructure--29ac9e4f-ac0e-403c-8a09-54458f547bac",
+            "target_ref": "domain-name--a1bc24af-d75c-5e67-aedd-813a73234fee"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--082e4daa-e06e-466d-b358-7747a0f02f13",
+            "created": "2021-01-19T17:26:45.852739Z",
+            "modified": "2021-01-19T17:26:45.852739Z",
+            "relationship_type": "consists-of",
+            "source_ref": "infrastructure--29ac9e4f-ac0e-403c-8a09-54458f547bac",
+            "target_ref": "domain-name--4a576b53-b461-584d-871d-30eec2811328"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--42ae3592-e90e-41ba-8a28-1778c5f5a6c6",
+            "created": "2021-01-19T17:26:45.852835Z",
+            "modified": "2021-01-19T17:26:45.852835Z",
+            "relationship_type": "consists-of",
+            "source_ref": "infrastructure--29ac9e4f-ac0e-403c-8a09-54458f547bac",
+            "target_ref": "domain-name--a76d99f6-a369-586a-982b-d586d25369cf"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0ef9fecc-3777-4fbb-ae1d-802a7a345aad",
+            "created": "2021-01-19T17:26:45.852934Z",
+            "modified": "2021-01-19T17:26:45.852934Z",
+            "relationship_type": "uses",
+            "source_ref": "threat-actor--d62d9ae7-bc7a-414f-bc75-739cee7c1317",
+            "target_ref": "infrastructure--29ac9e4f-ac0e-403c-8a09-54458f547bac"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5142571d-ec71-43ee-bf82-1f2cf83b0aaf",
+            "created": "2021-01-19T17:26:45.853036Z",
+            "modified": "2021-01-19T17:26:45.853036Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--bfb7cc67-be5c-4144-a2a2-af24d1913bad",
+            "target_ref": "threat-actor--d62d9ae7-bc7a-414f-bc75-739cee7c1317"
+        },
+        {
+            "type": "malware",
+            "spec_version": "2.1",
+            "id": "malware--95cc2e6e-e033-4b42-8c98-3f5c50545f08",
+            "created": "2021-01-19T17:26:45.850994Z",
+            "modified": "2021-01-19T17:26:45.850994Z",
+            "name": "DLVPlayerAgentUpdate",
+            "malware_types": [
+                "adware"
+            ],
+            "is_family": false,
+            "capabilities": [
+                "fingerprints-host"
+            ]
+        },
+        {
+            "type": "domain-name",
+            "spec_version": "2.1",
+            "id": "domain-name--69f4a959-d7c2-5424-8526-2d9ee1c50cf7",
+            "value": "dlvplayer.com"
+        },
+        {
+            "type": "domain-name",
+            "spec_version": "2.1",
+            "id": "domain-name--0146452f-a6fb-539e-83ec-7a3c208c3d53",
+            "value": "api.dlvplayer.com"
+        },
+        {
+            "type": "domain-name",
+            "spec_version": "2.1",
+            "id": "domain-name--a1bc24af-d75c-5e67-aedd-813a73234fee",
+            "value": "events.dlvplayer.com"
+        },
+        {
+            "type": "domain-name",
+            "spec_version": "2.1",
+            "id": "domain-name--4a576b53-b461-584d-871d-30eec2811328",
+            "value": "apigeo.dlvplayer.com"
+        },
+        {
+            "type": "domain-name",
+            "spec_version": "2.1",
+            "id": "domain-name--a76d99f6-a369-586a-982b-d586d25369cf",
+            "value": "cdnassets.dlvplayer.com"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--bfb7cc67-be5c-4144-a2a2-af24d1913bad",
+            "created_by_ref": "identity--6270b7c5-724b-4298-ba49-10f6e2733e7e",
+            "created": "2021-01-19T17:26:45.837017Z",
+            "modified": "2021-01-19T17:26:45.837017Z",
+            "name": "WizardUpdater adware Backdoor",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[file:hashes.'SHA-256' = '664759ae45f71fac1b645b0623bc337ad920ca2ffc7295b0d14e44532ac974b1' OR file:hashes.'SHA-256' = '664759ae45f71fac1b645b0623bc337ad920ca2ffc7295b0d14e44532ac974b1' OR file:hashes.'SHA-256' = '78b4478cd3f91c42333561abb9b09730a88154084947182b2ec969995b25ad78' OR file:hashes.'SHA-256' ='91824c6a36ef60881b4f502102b0c068c8a3acd4bceb86eb4ffd1043f7990763' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-01-19T17:26:45.837017Z"
+        },
+        {
+            "type": "infrastructure",
+            "spec_version": "2.1",
+            "id": "infrastructure--29ac9e4f-ac0e-403c-8a09-54458f547bac",
+            "created_by_ref": "identity--6270b7c5-724b-4298-ba49-10f6e2733e7e",
+            "created": "2021-01-19T17:26:45.851121Z",
+            "modified": "2021-01-19T17:26:45.851121Z",
+            "name": "WizardUpdater Infrastructure",
+            "infrastructure_types": [
+                "staging"
+            ]
+        },
+        {
+            "type": "threat-actor",
+            "spec_version": "2.1",
+            "id": "threat-actor--d62d9ae7-bc7a-414f-bc75-739cee7c1317",
+            "created": "2021-01-19T17:26:45.851229Z",
+            "modified": "2021-01-19T17:26:45.851229Z",
+            "name": "UNC321391",
+            "threat_actor_types": [
+                "criminal"
+            ],
+            "roles": [
+                "director"
+            ],
+            "goals": [
+                "Malvertising attacks"
+            ],
+            "sophistication": "innovator",
+            "resource_level": "organization",
+            "primary_motivation": "personal-gain"
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--6270b7c5-724b-4298-ba49-10f6e2733e7e",
+            "created": "2021-01-19T17:26:45.836656Z",
+            "modified": "2021-01-19T17:26:45.836656Z",
+            "name": "Confiant Inc.",
+            "roles": [
+                "cyber security"
+            ],
+            "sectors": [
+                "technology"
+            ],
+            "contact_information": "security@confiant.com"
+        }
+    ]
+}
