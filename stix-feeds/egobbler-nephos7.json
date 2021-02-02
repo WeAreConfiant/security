@@ -1,34 +1,44 @@
 {
     "type": "bundle",
-    "id": "bundle--defcf148-bd74-4b94-88cf-ebc200cd4e4d",
+    "id": "bundle--64b73abd-02fc-4813-a843-5e6e5b874550",
     "objects": [
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--072dbf12-eb5e-455f-8951-3ee40e6e83dd",
-            "created": "2021-02-02T16:37:44.778339Z",
-            "modified": "2021-02-02T16:37:44.778339Z",
+            "id": "relationship--0805465f-ea69-4bec-bdbf-f1cf1f572599",
+            "created": "2021-02-02T17:13:46.51559Z",
+            "modified": "2021-02-02T17:13:46.51559Z",
             "relationship_type": "indicates",
-            "source_ref": "indicator--5f616967-5c5b-4553-b3e6-183239c6b721",
-            "target_ref": "threat-actor--367bebde-cc71-4a78-bad1-629f2a6e3ee4"
+            "source_ref": "indicator--21fd944b-cebc-4c39-8c50-8026f5cf1b71",
+            "target_ref": "threat-actor--d7a2937e-1287-406f-9777-d8d016bc7419"
         },
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--301d3227-2229-47a5-bad6-9f969e44d9a1",
-            "created": "2021-02-02T16:37:44.778464Z",
-            "modified": "2021-02-02T16:37:44.778464Z",
+            "id": "relationship--6080e8c8-cb03-4e93-ac18-6510483291f4",
+            "created": "2021-02-02T17:13:46.515717Z",
+            "modified": "2021-02-02T17:13:46.515717Z",
             "relationship_type": "indicates",
-            "source_ref": "indicator--1587a55e-9cc3-484a-a6a1-ebc39986ba63",
-            "target_ref": "threat-actor--32c99c5d-7106-4ecb-af9b-6e57597d463d"
+            "source_ref": "indicator--8ceb50c3-2e53-405c-8864-3589368b25cd",
+            "target_ref": "threat-actor--53905571-1959-4a89-9d76-68b13184827b"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f92c0c2b-ed6e-44d8-9046-7b4668f922ea",
+            "created": "2021-02-02T17:13:46.515825Z",
+            "modified": "2021-02-02T17:13:46.515825Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--5a79822e-9f6b-4031-9592-2e782ed9d723",
+            "target_ref": "threat-actor--6c093e78-6517-4a5a-bb5a-936902848c94"
         },
         {
             "type": "indicator",
             "spec_version": "2.1",
-            "id": "indicator--5f616967-5c5b-4553-b3e6-183239c6b721",
-            "created_by_ref": "identity--445e4884-848f-4063-a18f-0c44559bc045",
-            "created": "2021-02-02T16:37:44.619518Z",
-            "modified": "2021-02-02T16:37:44.619518Z",
+            "id": "indicator--21fd944b-cebc-4c39-8c50-8026f5cf1b71",
+            "created_by_ref": "identity--e87ac3ae-891f-4516-9bb9-cd4659e256f7",
+            "created": "2021-02-02T17:13:46.35425Z",
+            "modified": "2021-02-02T17:13:46.35425Z",
             "name": "eGobbler infrastructure",
             "indicator_types": [
                 "malicious-activity"
@@ -36,15 +46,15 @@
             "pattern": " [domain-name:value = 'snap.scdn1.secure.raxcdn.com' OR domain-name:value = 'inskinmedia.scdn5.secure.raxcdn.com' OR domain-name:value = 'bidtellect.global.ssl.fastly.net' OR domain-name:value = 'isitelab.scdn3.secure.raxcdn.com' OR domain-name:value = 'eterna.scdn3.secure.raxcdn.com' OR domain-name:value = 'plannto.global.ssl.fastly.net' OR domain-name:value = 'integralads.scdn7.secure.raxcdn.com' OR domain-name:value = 'adsovo.global.ssl.fastly.net' OR domain-name:value = 'hashtagd.scdn7.secure.raxcdn.com' OR domain-name:value = 'adotmob.scdn8.secure.raxcdn.com' OR domain-name:value = 'beeline.scdn2.secure.raxcdn.com' OR domain-name:value = 'grabit.global.ssl.fastly.net' OR domain-name:value = 'solocpm.global.ssl.fastly.net' OR domain-name:value = 'firstchoice.global.ssl.fastly.net' OR domain-name:value = 'grandex.global.ssl.fastly.net' OR domain-name:value = 'staples.scdn2.secure.raxcdn.com' OR domain-name:value = 'tresensa.scdn6.secure.raxcdn.com' OR domain-name:value = 'advolution.scdn3.secure.raxcdn.com' OR domain-name:value = 'claranet.scdn2.secure.raxcdn.com' OR domain-name:value = 'forensiq.global.ssl.fastly.net' OR domain-name:value = 'mathads.global.ssl.fastly.net' OR domain-name:value = 'lifestreet.scdn7.secure.raxcdn.com' OR domain-name:value = 'gssprt.scdn3.secure.raxcdn.com' OR domain-name:value = 'vizury.scdn5.secure.raxcdn.com' OR domain-name:value = 'fprnt.global.ssl.fastly.net' OR domain-name:value = 'belboon.global.ssl.fastly.net' OR domain-name:value = 'smartclip.global.ssl.fastly.net' OR domain-name:value = 'rockerbox.global.ssl.fastly.net' OR domain-name:value = 'streamrail.scdn1.secure.raxcdn.com' OR domain-name:value = 'paperg.scdn4.secure.raxcdn.com' OR domain-name:value = 'admized.scdn4.secure.raxcdn.com' OR domain-name:value = 'tripartz.global.ssl.fastly.net' OR domain-name:value = 'hillarys.global.ssl.fastly.net' OR domain-name:value = 'kairion.global.ssl.fastly.net' OR domain-name:value = 'adspirit.global.ssl.fastly.net' OR domain-name:value = 'turboadv.global.ssl.fastly.net' OR domain-name:value = 'vidible.scdn6.secure.raxcdn.com' OR domain-name:value = 'departapp.global.ssl.fastly.net' OR domain-name:value = 'marchex.global.ssl.fastly.net' OR domain-name:value = 'affilired.scdn4.secure.raxcdn.com' OR domain-name:value = 'zebrafish.global.ssl.fastly.net' OR domain-name:value = 'contextweb.scdn4.secure.raxcdn.com' OR domain-name:value = 'plexop.scdn8.secure.raxcdn.com' OR domain-name:value = 'craigslist.global.ssl.fastly.net' OR domain-name:value = 'pressflex.scdn5.secure.raxcdn.com' OR domain-name:value = 'adlucent.global.ssl.fastly.net' OR domain-name:value = 'fxdepo.global.ssl.fastly.net' OR domain-name:value = 'kokteyl.scdn3.secure.raxcdn.com' OR domain-name:value = 'valueclick.scdn8.secure.raxcdn.com' OR domain-name:value = 'gumgum.scdn1.secure.raxcdn.com' OR domain-name:value = 'exelate.global.ssl.fastly.net' OR domain-name:value = 'zodiak.global.ssl.fastly.net' OR domain-name:value = 'smarcado.scdn8.secure.raxcdn.com' OR domain-name:value = 'molora.global.ssl.fastly.net' OR domain-name:value = 'netdirekt.global.ssl.fastly.net' OR domain-name:value = 'spreadshirt.scdn4.secure.raxcdn.com' OR domain-name:value = 'hispavista.global.ssl.fastly.net' OR domain-name:value = 'contobox.scdn2.secure.raxcdn.com' OR domain-name:value = 'neuranet.global.ssl.fastly.net' OR domain-name:value = 'automattic.global.ssl.fastly.net' OR domain-name:value = 'adjuggler.scdn8.secure.raxcdn.com' OR domain-name:value = 'hubspot.global.ssl.fastly.net' OR domain-name:value = 'ignum.scdn2.secure.raxcdn.com' OR domain-name:value = 'keollia.scdn8.secure.raxcdn.com' OR domain-name:value = 'innobiz.global.ssl.fastly.net' OR domain-name:value = 'logly.global.ssl.fastly.net' OR domain-name:value = 'mamarella.scdn1.secure.raxcdn.com' OR domain-name:value = 'nurture.scdn6.secure.raxcdn.com' OR domain-name:value = 'maralex.global.ssl.fastly.net' OR domain-name:value = 'ooyala.global.ssl.fastly.net' OR domain-name:value = 'partum.scdn2.secure.raxcdn.com' OR domain-name:value = 'mediaplex.scdn4.secure.raxcdn.com' OR domain-name:value = 'zentrick.global.ssl.fastly.net' OR domain-name:value = 'hotpointmedia.global.ssl.fastly.net' OR domain-name:value = 'adblade.scdn7.secure.raxcdn.com' OR domain-name:value = 'limelight.global.ssl.fastly.net' OR domain-name:value = 'cocomore.global.ssl.fastly.net' OR domain-name:value = 'adssets.scdn3.secure.raxcdn.com' OR domain-name:value = 'adkernel.global.ssl.fastly.net' OR domain-name:value = 'augur.scdn7.secure.raxcdn.com' OR domain-name:value = 'synovite.scdn1.secure.raxcdn.com' OR domain-name:value = 'wavecon.global.ssl.fastly.net' OR domain-name:value = 'flipp.global.ssl.fastly.net' OR domain-name:value = 'veruta.global.ssl.fastly.net' OR domain-name:value = 'madison.global.ssl.fastly.net' OR domain-name:value = 'sojern.global.ssl.fastly.net' OR domain-name:value = 'expedia.scdn7.secure.raxcdn.com' OR domain-name:value = 'sled.scdn5.secure.raxcdn.com' OR domain-name:value = 'streameye.scdn2.secure.raxcdn.com' OR domain-name:value = 'couller.scdn4.secure.raxcdn.com' OR domain-name:value = 'rackhosting.global.ssl.fastly.net' OR domain-name:value = 'catimini.scdn6.secure.raxcdn.com' OR domain-name:value = 'bering.global.ssl.fastly.net' OR domain-name:value = 'skimbit.scdn6.secure.raxcdn.com' OR domain-name:value = 'swaven.global.ssl.fastly.net' OR domain-name:value = 'tealium.scdn7.secure.raxcdn.com' OR domain-name:value = 'mittwald.scdn3.secure.raxcdn.com' OR domain-name:value = 'tradelab.global.ssl.fastly.net' OR domain-name:value = 'affec.global.ssl.fastly.net' OR domain-name:value = 'datonics.global.ssl.fastly.net' OR domain-name:value = 'thomson.global.ssl.fastly.net' OR domain-name:value = 'adverplex.global.ssl.fastly.net' OR domain-name:value = 'statiq.scdn3.secure.raxcdn.com' OR domain-name:value = 'alephd.scdn5.secure.raxcdn.com' OR domain-name:value = 'netzeffekt.scdn1.secure.raxcdn.com' OR domain-name:value = 'sportfive.global.ssl.fastly.net' OR domain-name:value = 'tiqiq.global.ssl.fastly.net' OR domain-name:value = 'runscope.scdn4.secure.raxcdn.com' OR domain-name:value = 'ubimo.scdn2.secure.raxcdn.com' OR domain-name:value = 'qriously.global.ssl.fastly.net' OR domain-name:value = 'prodege.scdn4.secure.raxcdn.com' OR domain-name:value = 'mocean.scdn3.secure.raxcdn.com' OR domain-name:value = 'kontent.global.ssl.fastly.net' OR domain-name:value = 'whitehawk.scdn5.secure.raxcdn.com' OR domain-name:value = 'inradio.scdn5.secure.raxcdn.com' OR domain-name:value = 'sophus.global.ssl.fastly.net' OR domain-name:value = 'nomura.scdn1.secure.raxcdn.com' OR domain-name:value = '33acrass.com' OR domain-name:value = 'adrollings.com' OR domain-name:value = 'adtracker.io' OR domain-name:value = 'amazon-absystem.com' OR domain-name:value = 'avantisvideos.com' OR domain-name:value = 'comnatix.com' OR domain-name:value = 'consnmable.com' OR domain-name:value = 'content-od.com' OR domain-name:value = 'couversantmedia.com' OR domain-name:value = 'coxmts.com' OR domain-name:value = 'critao.com' OR domain-name:value = 'deliverysystem.info' OR domain-name:value = 'distriotm.com' OR domain-name:value = 'hubiconproject.com' OR domain-name:value = 'indaxexchange.com' OR domain-name:value = 'indexredirect.com' OR domain-name:value = 'ki0sked.com' OR domain-name:value = 'licantrums.com' OR domain-name:value = 'lijits.com' OR domain-name:value = 'liveintents.com' OR domain-name:value = 'lockerbome.com' OR domain-name:value = 'pabmatic.com' OR domain-name:value = 'adsarsenal.com' OR domain-name:value = 'snabads.com' OR domain-name:value = 'startrainst.com' OR domain-name:value = 'teleriea.com' OR domain-name:value = 'tremorhab.com' OR domain-name:value = 'unrnlymedia.com' OR domain-name:value = 'upontextweb.com' OR domain-name:value = 'yieldma.com']",
             "pattern_type": "stix",
             "pattern_version": "2.1",
-            "valid_from": "2021-02-02T16:37:44.619518Z"
+            "valid_from": "2021-02-02T17:13:46.35425Z"
         },
         {
             "type": "indicator",
             "spec_version": "2.1",
-            "id": "indicator--1587a55e-9cc3-484a-a6a1-ebc39986ba63",
-            "created_by_ref": "identity--445e4884-848f-4063-a18f-0c44559bc045",
-            "created": "2021-02-02T16:37:44.717359Z",
-            "modified": "2021-02-02T16:37:44.717359Z",
+            "id": "indicator--8ceb50c3-2e53-405c-8864-3589368b25cd",
+            "created_by_ref": "identity--e87ac3ae-891f-4516-9bb9-cd4659e256f7",
+            "created": "2021-02-02T17:13:46.447826Z",
+            "modified": "2021-02-02T17:13:46.447826Z",
             "name": "Nephos7 infrastructure",
             "indicator_types": [
                 "malicious-activity"
@@ -52,14 +62,30 @@
             "pattern": " [domain-name:value = 'd3jfndw0khde1w.cloudfront.net' OR domain-name:value = 'd1672r7at8ps4b.cloudfront.net' OR domain-name:value = 'd3ewajw2h1bgk2.cloudfront.net' OR domain-name:value = 'd12l0cmwdanmhc.cloudfront.net' OR domain-name:value = 'd31ul1vuhsdawo.cloudfront.net' OR domain-name:value = 'd3fneew1ga7yhn.cloudfront.net' OR domain-name:value = 'd37jyp7aehy66h.cloudfront.net' OR domain-name:value = 'd28yptvjmik8xc.cloudfront.net' OR domain-name:value = 'dsu0aktav0tat.cloudfront.net' OR domain-name:value = 'dvfh5r94cb5gw.cloudfront.net' OR domain-name:value = 'd3oydbwyi1h7s4.cloudfront.net' OR domain-name:value = 'd22qm8xz0qlb9y.cloudfront.net' OR domain-name:value = 'd3gz6eakaozjnp.cloudfront.net' OR domain-name:value = 'dogf27ndkqaza.cloudfront.net' OR domain-name:value = 'drotgunvotxc6.cloudfront.net' OR domain-name:value = 'duk0mh4lnha2a.cloudfront.net' OR domain-name:value = 'dlp94kk6b7da0.cloudfront.net' OR domain-name:value = 'dkvn3fsheydb.cloudfront.net' OR domain-name:value = 'dpq1p5j9qkpz8.cloudfront.net' OR domain-name:value = 'd25hk0w1gphz2r.cloudfront.net' OR domain-name:value = 'd7ug88vwk4xrx.cloudfront.net' OR domain-name:value = 'dzec0geocpowj.cloudfront.net' OR domain-name:value = 'dyitguwuj9a02.cloudfront.net' OR domain-name:value = 'd2aqptx2eu71s.cloudfront.net' OR domain-name:value = 'd2c6gljn9ypanx.cloudfront.net' OR domain-name:value = 'd2r7m8mfsdaa9m.cloudfront.net' OR domain-name:value = 'd3nw81t9jmcekg.cloudfront.net' OR domain-name:value = 'd3dydsx7b4d2gx.cloudfront.net' OR domain-name:value = 'd2dyodjlg3q8x2.cloudfront.net' OR domain-name:value = 'dzaiv408rdyue.cloudfront.net' OR domain-name:value = 'd18903zaguk1yf.cloudfront.net' OR domain-name:value = 'd1s4715xcycmfe.cloudfront.net' OR domain-name:value = 'd1a0giulscoafg.cloudfront.net' OR domain-name:value = 'd2xtsjaw1gbc2e.cloudfront.net' OR domain-name:value = 'dk9z16hlhi6hu.cloudfront.net' OR domain-name:value = 'd28r0727g1qb7b.cloudfront.net' OR domain-name:value = 'd1z91q47zjqyr7.cloudfront.net' OR domain-name:value = 'd123dszwgkwvwg.cloudfront.net' OR domain-name:value = 'd18y6ss2gbsj6z.cloudfront.net' OR domain-name:value = 'dpepfdm9mm9j.cloudfront.net' OR domain-name:value = 'd3vjjmpnp9sngg.cloudfront.net' OR domain-name:value = 'd154mm1zwls31b.cloudfront.net' OR domain-name:value = 'dnig45a6icxv6.cloudfront.net' OR domain-name:value = 'd2q4bfynkou56w.cloudfront.net' OR domain-name:value = 'd3bwjpxrvbqui3.cloudfront.net' OR domain-name:value = 'd2admo9zw5i3i4.cloudfront.net' OR domain-name:value = 'd8e6wyy4zynu4.cloudfront.net' OR domain-name:value = 'd127tqb6qee723.cloudfront.net' OR domain-name:value = 'd29qsxoh7rmbl9.cloudfront.net' OR domain-name:value = 'd2z9okg8tkssql.cloudfront.net' OR domain-name:value = 'd1ou6ulwrn2ktz.cloudfront.net' OR domain-name:value = 'd8a5veypckk91.cloudfront.net' OR domain-name:value = 'dw2l3y3kua20c.cloudfront.net' OR domain-name:value = 'd26ce6kti5l6fw.cloudfront.net' OR domain-name:value = 'd19p74dctadbwz.cloudfront.net' OR domain-name:value = 'd26u3pjviml85l.cloudfront.net' OR domain-name:value = 'dhuvcif9bkiw2.cloudfront.net' OR domain-name:value = 'dmp3d7dje6yw2.cloudfront.net' OR domain-name:value = 'd1v5qq1jbl9hv7.cloudfront.net' OR domain-name:value = 'd3as7gzbp7no5z.cloudfront.net' OR domain-name:value = 'd295lv274vi6o4.cloudfront.net' OR domain-name:value = 'djiptddh7okk3.cloudfront.net' OR domain-name:value = 'd342uela6v6zpo.cloudfront.net' OR domain-name:value = 'd1npj8a48z6iw8.cloudfront.net' OR domain-name:value = 'd22cs6arj8ifap.cloudfront.net' OR domain-name:value = 'd232ibth58g75q.cloudfront.net' OR domain-name:value = 'drnxc51olc21r.cloudfront.net' OR domain-name:value = 'd3883g0kbtgjkm.cloudfront.net' OR domain-name:value = 'd22jco0tiompq0.cloudfront.net' OR domain-name:value = 'd38lmleg7tac4i.cloudfront.net' OR domain-name:value = 'd1lc9grx7b9308.cloudfront.net' OR domain-name:value = 'd32ntqpg902z7u.cloudfront.net' OR domain-name:value = 'd2jay1hx8dazgg.cloudfront.net' OR domain-name:value = 'd23qdtb4wdkfa8.cloudfront.net' OR domain-name:value = 'd3o6nuvn84s1hk.cloudfront.net' OR domain-name:value = 'd3vuzv1n2fxfra.cloudfront.net' OR domain-name:value = 'd2nhkpxauck8js.cloudfront.net' OR domain-name:value = 'd28irwt14hvegg.cloudfront.net' OR domain-name:value = 'd3a5b4n579036v.cloudfront.net' OR domain-name:value = 'd1hft7dxqiidma.cloudfront.net' OR domain-name:value = 'd25pb377li6uwd.cloudfront.net' OR domain-name:value = 'd1lcx6etvl7rgn.cloudfront.net' OR domain-name:value = 'dhxs1qcec1ag2.cloudfront.net' OR domain-name:value = 'dn49ddvd7au1a.cloudfront.net' OR domain-name:value = 'd2c167lm0czofk.cloudfront.net' OR domain-name:value = 'd2a51cofad4geq.cloudfront.net' OR domain-name:value = 'd288yz0h62hsnf.cloudfront.net' OR domain-name:value = 'd3hyl90dyall32.cloudfront.net' OR domain-name:value = 'd150n69qigbk5d.cloudfront.net' OR domain-name:value = 'ideads.engine.adglare.net' OR domain-name:value = 'dyguutapdazci.cloudfront.net' OR domain-name:value = 'd3pl0xaqf9bfju.cloudfront.net' OR domain-name:value = 'd30j19hrfvfgt5.cloudfront.net' OR domain-name:value = 'd3plvwmr2qgciz.cloudfront.net' OR domain-name:value = 'd15ol3jsro1jxj.cloudfront.net' OR domain-name:value = 'd1tzmq03phyjwk.cloudfront.net' OR domain-name:value = 'di1w9e1hboucs.cloudfront.net' OR domain-name:value = 'd2jh5um6qa6x05.cloudfront.net' OR domain-name:value = 'bd3x7s6rdiyc.cloudfront.net' OR domain-name:value = 'd1xyq6anvv3hhw.cloudfront.net' OR domain-name:value = 'd19ujgmxyakz8b.cloudfront.net' OR domain-name:value = 'd3thf3ia33xzs3.cloudfront.net' OR domain-name:value = 'd286y62ffq81xq.cloudfront.net' OR domain-name:value = 'd36pzq4vr0vs9r.cloudfront.net' OR domain-name:value = 'd2zfln9f5lmc3c.cloudfront.net' OR domain-name:value = 'd2sx08ry0tu4fp.cloudfront.net' OR domain-name:value = 'd1dymaipz7i8bc.cloudfront.net' OR domain-name:value = 'd71vm9jlp7etz.cloudfront.net' OR domain-name:value = 'd3tb0hubsfbe99.cloudfront.net' OR domain-name:value = 'd1oy0gra2zed9s.cloudfront.net' OR domain-name:value = 'd1qqsan531lchn.cloudfront.net' OR domain-name:value = 'd23o5avkkpg864.cloudfront.net' OR domain-name:value = 'd337976wjlsc9n.cloudfront.net' OR domain-name:value = 'd12xhmbtemypq0.cloudfront.net' OR domain-name:value = 'panasonic-es.azureedge.net' OR domain-name:value = 'panasoni-fr.azureedge.net']",
             "pattern_type": "stix",
             "pattern_version": "2.1",
-            "valid_from": "2021-02-02T16:37:44.717359Z"
+            "valid_from": "2021-02-02T17:13:46.447826Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--5a79822e-9f6b-4031-9592-2e782ed9d723",
+            "created_by_ref": "identity--e87ac3ae-891f-4516-9bb9-cd4659e256f7",
+            "created": "2021-02-02T17:13:46.512672Z",
+            "modified": "2021-02-02T17:13:46.512672Z",
+            "name": "Holcus infrastructure",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": " [domain-name:value = 'myappcube.com' OR domain-name:value = 'businessfulcrumsoft.com' OR domain-name:value = 'softwaredatariver.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-02-02T17:13:46.512672Z"
         },
         {
             "type": "threat-actor",
             "spec_version": "2.1",
-            "id": "threat-actor--367bebde-cc71-4a78-bad1-629f2a6e3ee4",
-            "created": "2021-02-02T16:37:44.778054Z",
-            "modified": "2021-02-02T16:37:44.778054Z",
+            "id": "threat-actor--d7a2937e-1287-406f-9777-d8d016bc7419",
+            "created": "2021-02-02T17:13:46.515217Z",
+            "modified": "2021-02-02T17:13:46.515217Z",
             "name": "eGobbler",
             "threat_actor_types": [
                 "criminal"
@@ -77,10 +103,30 @@
         {
             "type": "threat-actor",
             "spec_version": "2.1",
-            "id": "threat-actor--32c99c5d-7106-4ecb-af9b-6e57597d463d",
-            "created": "2021-02-02T16:37:44.778224Z",
-            "modified": "2021-02-02T16:37:44.778224Z",
+            "id": "threat-actor--53905571-1959-4a89-9d76-68b13184827b",
+            "created": "2021-02-02T17:13:46.515363Z",
+            "modified": "2021-02-02T17:13:46.515363Z",
             "name": "Nephos7",
+            "threat_actor_types": [
+                "criminal"
+            ],
+            "roles": [
+                "director"
+            ],
+            "goals": [
+                "Malvertising attacks"
+            ],
+            "sophistication": "innovator",
+            "resource_level": "organization",
+            "primary_motivation": "personal-gain"
+        },
+        {
+            "type": "threat-actor",
+            "spec_version": "2.1",
+            "id": "threat-actor--6c093e78-6517-4a5a-bb5a-936902848c94",
+            "created": "2021-02-02T17:13:46.515477Z",
+            "modified": "2021-02-02T17:13:46.515477Z",
+            "name": "Holcus",
             "threat_actor_types": [
                 "criminal"
             ],
@@ -97,9 +143,9 @@
         {
             "type": "identity",
             "spec_version": "2.1",
-            "id": "identity--445e4884-848f-4063-a18f-0c44559bc045",
-            "created": "2021-02-02T16:37:44.619062Z",
-            "modified": "2021-02-02T16:37:44.619062Z",
+            "id": "identity--e87ac3ae-891f-4516-9bb9-cd4659e256f7",
+            "created": "2021-02-02T17:13:46.35389Z",
+            "modified": "2021-02-02T17:13:46.35389Z",
             "name": "Confiant Inc.",
             "roles": [
                 "cyber security"
@@ -110,4 +156,5 @@
             "contact_information": "security@confiant.com"
         }
     ]
+
 }
