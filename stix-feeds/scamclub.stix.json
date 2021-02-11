@@ -1,0 +1,523 @@
+{
+    "type": "bundle",
+    "id": "bundle--efdc64a9-abb4-4af9-9310-4463920acec2",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--35f4f923-ddc4-4eea-99b8-09ea9305e1dc",
+            "created": "2021-02-11T20:19:47.049755Z",
+            "modified": "2021-02-11T20:19:47.049755Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--90a58fac-6d23-422b-9029-cc6ecf2a6bad",
+            "target_ref": "threat-actor--6e709162-41b3-4b00-a88d-25b0a01bf910"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e0f1806e-4233-4680-bbee-75365116b6d6",
+            "created": "2021-02-11T20:19:47.049877Z",
+            "modified": "2021-02-11T20:19:47.049877Z",
+            "relationship_type": "consists-of",
+            "source_ref": "infrastructure--a23a9bf1-4f86-43aa-a306-c8cb4951714a",
+            "target_ref": "domain-name--354114f2-5f2c-525f-a9b6-37a9e25a1147"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--18ed7b35-355d-45d6-ae52-37b20be47b9b",
+            "created": "2021-02-11T20:19:47.049976Z",
+            "modified": "2021-02-11T20:19:47.049976Z",
+            "relationship_type": "consists-of",
+            "source_ref": "infrastructure--a23a9bf1-4f86-43aa-a306-c8cb4951714a",
+            "target_ref": "domain-name--1204023e-8175-5bb4-b5f6-1f1a4af1399b"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d5d534d1-0917-4085-a117-202233ada9ed",
+            "created": "2021-02-11T20:19:47.050064Z",
+            "modified": "2021-02-11T20:19:47.050064Z",
+            "relationship_type": "consists-of",
+            "source_ref": "infrastructure--a23a9bf1-4f86-43aa-a306-c8cb4951714a",
+            "target_ref": "domain-name--878cd3d2-176d-5301-96a4-77212a9e8089"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--56dc5a8b-f6ad-4352-a809-457647c7b1dd",
+            "created": "2021-02-11T20:19:47.050149Z",
+            "modified": "2021-02-11T20:19:47.050149Z",
+            "relationship_type": "consists-of",
+            "source_ref": "infrastructure--a23a9bf1-4f86-43aa-a306-c8cb4951714a",
+            "target_ref": "domain-name--75c2c69b-3f4e-5d89-82d7-03ca5027a3f5"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--69e428ab-0a02-4053-965a-d56f7533157d",
+            "created": "2021-02-11T20:19:47.050237Z",
+            "modified": "2021-02-11T20:19:47.050237Z",
+            "relationship_type": "consists-of",
+            "source_ref": "infrastructure--a23a9bf1-4f86-43aa-a306-c8cb4951714a",
+            "target_ref": "domain-name--cab31076-b7e3-5b53-beb8-04b4f662c8db"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0670b0e0-8e4d-4f70-9496-a2acb525a199",
+            "created": "2021-02-11T20:19:47.050324Z",
+            "modified": "2021-02-11T20:19:47.050324Z",
+            "relationship_type": "consists-of",
+            "source_ref": "infrastructure--a23a9bf1-4f86-43aa-a306-c8cb4951714a",
+            "target_ref": "domain-name--1e09c777-3cb6-5965-a2ef-fce74f4ea21a"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--392267ff-c4ca-44ba-a7c6-b5b816d010b4",
+            "created": "2021-02-11T20:19:47.050412Z",
+            "modified": "2021-02-11T20:19:47.050412Z",
+            "relationship_type": "consists-of",
+            "source_ref": "infrastructure--a23a9bf1-4f86-43aa-a306-c8cb4951714a",
+            "target_ref": "domain-name--8ec908ef-3862-5d2a-8372-cb4562b50d31"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--3fbe1789-57b5-4725-ada2-3d98998c6667",
+            "created": "2021-02-11T20:19:47.050498Z",
+            "modified": "2021-02-11T20:19:47.050498Z",
+            "relationship_type": "consists-of",
+            "source_ref": "infrastructure--a23a9bf1-4f86-43aa-a306-c8cb4951714a",
+            "target_ref": "domain-name--c941a393-ebea-508a-952d-821bb1f82dc3"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--2bb2b3c0-e4f9-4b05-9410-da161127ab78",
+            "created": "2021-02-11T20:19:47.050582Z",
+            "modified": "2021-02-11T20:19:47.050582Z",
+            "relationship_type": "consists-of",
+            "source_ref": "infrastructure--a23a9bf1-4f86-43aa-a306-c8cb4951714a",
+            "target_ref": "domain-name--c8add5a9-0c23-532d-8777-56a5cf021a86"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--cc5eb8cb-c1db-4080-befc-5289a4bd6822",
+            "created": "2021-02-11T20:19:47.050665Z",
+            "modified": "2021-02-11T20:19:47.050665Z",
+            "relationship_type": "consists-of",
+            "source_ref": "infrastructure--a23a9bf1-4f86-43aa-a306-c8cb4951714a",
+            "target_ref": "domain-name--12ce22cf-1587-53a1-96d3-7e9ebcdaf340"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--495feb52-1ee6-47fd-82d2-da73ade258a0",
+            "created": "2021-02-11T20:19:47.050748Z",
+            "modified": "2021-02-11T20:19:47.050748Z",
+            "relationship_type": "consists-of",
+            "source_ref": "infrastructure--a23a9bf1-4f86-43aa-a306-c8cb4951714a",
+            "target_ref": "domain-name--56a2d20e-c0fb-5881-87ae-6368d84796c0"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--38b73bf5-b1bb-41f4-8340-248529a725e2",
+            "created": "2021-02-11T20:19:47.05083Z",
+            "modified": "2021-02-11T20:19:47.05083Z",
+            "relationship_type": "consists-of",
+            "source_ref": "infrastructure--a23a9bf1-4f86-43aa-a306-c8cb4951714a",
+            "target_ref": "domain-name--245f85af-27bc-5192-a5c0-1b33a8dded06"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--19bd5b78-960e-423d-93f0-3c0f8f7f25ab",
+            "created": "2021-02-11T20:19:47.050914Z",
+            "modified": "2021-02-11T20:19:47.050914Z",
+            "relationship_type": "consists-of",
+            "source_ref": "infrastructure--a23a9bf1-4f86-43aa-a306-c8cb4951714a",
+            "target_ref": "domain-name--87a9f866-b9ac-5cae-b69f-d824ecbc04b0"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f20d6a68-a18a-46b3-ba8c-e95c0d7fa877",
+            "created": "2021-02-11T20:19:47.051Z",
+            "modified": "2021-02-11T20:19:47.051Z",
+            "relationship_type": "consists-of",
+            "source_ref": "infrastructure--a23a9bf1-4f86-43aa-a306-c8cb4951714a",
+            "target_ref": "domain-name--b6e4d5e1-780e-5a73-ade7-c7e8da07489b"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--79c6b02d-d6db-4e3c-90ce-bd450e8f7700",
+            "created": "2021-02-11T20:19:47.051087Z",
+            "modified": "2021-02-11T20:19:47.051087Z",
+            "relationship_type": "consists-of",
+            "source_ref": "infrastructure--a23a9bf1-4f86-43aa-a306-c8cb4951714a",
+            "target_ref": "domain-name--9a7429f2-0def-59d5-9c07-bd89bbcc1cab"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ccb66e3f-b90f-4d28-88f7-bb8347056c62",
+            "created": "2021-02-11T20:19:47.05117Z",
+            "modified": "2021-02-11T20:19:47.05117Z",
+            "relationship_type": "consists-of",
+            "source_ref": "infrastructure--a23a9bf1-4f86-43aa-a306-c8cb4951714a",
+            "target_ref": "domain-name--74b31ff3-465d-5cfc-a8ca-fd215a016643"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--7e96262c-d1df-4679-8c63-961f8ededf0a",
+            "created": "2021-02-11T20:19:47.051252Z",
+            "modified": "2021-02-11T20:19:47.051252Z",
+            "relationship_type": "consists-of",
+            "source_ref": "infrastructure--a23a9bf1-4f86-43aa-a306-c8cb4951714a",
+            "target_ref": "domain-name--5200e617-7997-56ea-8402-84fcc9441ec3"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--01b1a213-1b10-408b-aa5c-1a69ca6e73ae",
+            "created": "2021-02-11T20:19:47.051335Z",
+            "modified": "2021-02-11T20:19:47.051335Z",
+            "relationship_type": "consists-of",
+            "source_ref": "infrastructure--a23a9bf1-4f86-43aa-a306-c8cb4951714a",
+            "target_ref": "domain-name--6ab8f37e-c43c-59fe-a624-1249b00d593f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--bc43850a-faa1-4d80-948c-eb2e57834572",
+            "created": "2021-02-11T20:19:47.051417Z",
+            "modified": "2021-02-11T20:19:47.051417Z",
+            "relationship_type": "consists-of",
+            "source_ref": "infrastructure--a23a9bf1-4f86-43aa-a306-c8cb4951714a",
+            "target_ref": "domain-name--d16b7a80-84c3-5daf-9c6b-6f640da6d481"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--01f2b38b-05d0-4b6f-b7a6-bf30ec7f51c9",
+            "created": "2021-02-11T20:19:47.051497Z",
+            "modified": "2021-02-11T20:19:47.051497Z",
+            "relationship_type": "consists-of",
+            "source_ref": "infrastructure--a23a9bf1-4f86-43aa-a306-c8cb4951714a",
+            "target_ref": "domain-name--d04e52be-f507-5c5e-aff5-5d5e07b16408"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c199d59e-c4dd-4e1d-90ea-bf55e6ca3225",
+            "created": "2021-02-11T20:19:47.051631Z",
+            "modified": "2021-02-11T20:19:47.051631Z",
+            "relationship_type": "consists-of",
+            "source_ref": "infrastructure--85b2af0f-796e-44b6-9f87-754cad3adf45",
+            "target_ref": "domain-name--44e8ccec-e121-5916-9a76-6146a55669f2"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--50f6b41c-78f7-4e19-aa0f-090cb4dfded5",
+            "created": "2021-02-11T20:19:47.051718Z",
+            "modified": "2021-02-11T20:19:47.051718Z",
+            "relationship_type": "consists-of",
+            "source_ref": "infrastructure--85b2af0f-796e-44b6-9f87-754cad3adf45",
+            "target_ref": "domain-name--98decb04-b094-552a-bf89-d4154d30cab1"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--be040d22-f79d-43f2-9118-6eed6c9c2d9b",
+            "created": "2021-02-11T20:19:47.051802Z",
+            "modified": "2021-02-11T20:19:47.051802Z",
+            "relationship_type": "consists-of",
+            "source_ref": "infrastructure--85b2af0f-796e-44b6-9f87-754cad3adf45",
+            "target_ref": "domain-name--e113f1ae-3e4f-54c9-9db0-31ac328be4ab"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b446704a-466b-4895-a641-933c7aa78b77",
+            "created": "2021-02-11T20:19:47.051885Z",
+            "modified": "2021-02-11T20:19:47.051885Z",
+            "relationship_type": "consists-of",
+            "source_ref": "infrastructure--85b2af0f-796e-44b6-9f87-754cad3adf45",
+            "target_ref": "domain-name--b2db3f59-4bce-5ea2-80aa-7f5a7bcad06e"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5fbd0b36-086d-44e4-b79e-32fcca016bda",
+            "created": "2021-02-11T20:19:47.051969Z",
+            "modified": "2021-02-11T20:19:47.051969Z",
+            "relationship_type": "consists-of",
+            "source_ref": "infrastructure--85b2af0f-796e-44b6-9f87-754cad3adf45",
+            "target_ref": "domain-name--6407f0df-3f33-599d-a9aa-d276dd10ccc2"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--79a3e05b-8b56-451b-ac84-e53d45f03fba",
+            "created": "2021-02-11T20:19:47.052053Z",
+            "modified": "2021-02-11T20:19:47.052053Z",
+            "relationship_type": "consists-of",
+            "source_ref": "infrastructure--85b2af0f-796e-44b6-9f87-754cad3adf45",
+            "target_ref": "domain-name--218af755-28f9-5ecc-b0b2-920904b9fd77"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--3573c8c2-22a7-4da5-85a1-dd8f44d141ce",
+            "created": "2021-02-11T20:19:47.052138Z",
+            "modified": "2021-02-11T20:19:47.052138Z",
+            "relationship_type": "consists-of",
+            "source_ref": "infrastructure--85b2af0f-796e-44b6-9f87-754cad3adf45",
+            "target_ref": "domain-name--5a3d1d42-c8dc-591c-bfbc-68f6184c358c"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--90a58fac-6d23-422b-9029-cc6ecf2a6bad",
+            "created_by_ref": "identity--f9ebb290-ed96-47da-bc5d-96941fc46d2c",
+            "created": "2021-02-11T20:19:46.962855Z",
+            "modified": "2021-02-11T20:19:46.962855Z",
+            "name": "ScamClub infrastructure",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[url:value = 'xmou.s3.us-east-2.amazonaws.com/mou.js' AND file:mime_type = 'text/javascript'] OR [url:value = 'impve.s3.amazonaws.com/create.js' AND file:hashes.'SHA-256'  = '0269d97956c29a124702d149a098e8ec1592f16edc757cfa709486b13ad90ad9' AND file:mime_type = 'text/javascript']  OR [url:value = 'dgoi.s3.us-east-2.amazonaws.com/goi.js' AND file:mime_type = 'text/javascript'] OR [url:value = 'yflx.s3.us-east-2.amazonaws.com/flx.js' AND file:mime_type = 'text/javascript'] OR [url:value = 'miil.s3.us-east-2.amazonaws.com/iia.js' AND file:mime_type = 'text/javascript'] OR [url:value = 'djian.s3.amazonaws.com/jia.js' AND file:mime_type = 'text/javascript'] OR [url:value = 'aimppv.s3.amazonaws.com/jiy.js' AND file:hashes.'SHA-256'  = '0d1c3fd8fd2bd9c57df54788a040e6bcd84222f88cdf55ae46da68a683ab3c1a' AND file:mime_type = 'text/javascript']  OR [url:value = 'aylei.s3.amazonaws.com/lei.js' AND file:mime_type = 'text/javascript'] OR [url:value = 'ajluo.s3.amazonaws.com/luo.js' AND file:mime_type = 'text/javascript'] OR [url:value = 'apzaf.s3.amazonaws.com/zaf.js' AND file:mime_type = 'text/javascript'] OR [url:value = 'appang.s3.us-east-2.amazonaws.com/pan.js' AND file:mime_type = 'text/javascript'] OR [url:value = 'dkjieg.s3.amazonaws.com/jieg.js' AND file:mime_type = 'text/javascript'] OR [url:value = 'adlya.s3.amazonaws.com/lya.js' AND file:mime_type = 'text/javascript'] OR [url:value = 'yddof.s3.amazonaws.com/dof.js' AND file:mime_type = 'text/javascript'] OR [url:value = 'meixop.s3.us-east-2.amazonaws.com/xop.js' AND file:mime_type = 'text/javascript'] OR [url:value = 'aqkol.s3.amazonaws.com/kol.js' AND file:mime_type = 'text/javascript'] OR [url:value = 'impvv.s3.us-east-2.amazonaws.com/dsd.js' AND file:hashes.'SHA-256'  = 'ece38f926454fe5ef64997b949fbc5228bd9129678814ea3587bad385664c309' AND file:mime_type = 'text/javascript']  OR [url:value = 'mqyuj.s3.amazonaws.com/yuj.js' AND file:mime_type = 'text/javascript'] OR [url:value = 'wpbgm.s3.amazonaws.com/bgm.js' AND file:hashes.'SHA-256'  = 'df368fc7f7aafc206ae1d1b94ab16796c9b53a6c79c2f5bad8ed1e305aad1702' AND file:mime_type = 'text/javascript']  OR [url:value = 'pzhufm.s3.amazonaws.com/zhuf.js' AND file:hashes.'SHA-256'  = '2a859bbd67dfef292ad28eb23c2684ff499d08da7f376fb96ffa1901c08d389f' AND file:mime_type = 'text/javascript']  OR [url:value = 'cxpm.s3.amazonaws.com/cx.js' AND file:hashes.'SHA-256'  = 'eb3304befef4c2a52ba34adc3aa241fbd16ece54f4e86824bd274d78f724ffa7' AND file:mime_type = 'text/javascript']  OR [url:value = 'khpm.s3.amazonaws.com/kh.js' AND file:hashes.'SHA-256'  = 'ddde235f37a1a51da2791016432ff6d53e19e083c7a1ebdad269f1abea5251cf' AND file:mime_type = 'text/javascript']  OR [url:value = 'vcjm.s3.amazonaws.com/vc.js' AND file:hashes.'SHA-256'  = '081fdf45d49939014537700e1985647b21da2882917d014a4849b1b4030e6e80' AND file:mime_type = 'text/javascript']  OR [url:value = 'lxpm.s3.amazonaws.com/lx.js' AND file:hashes.'SHA-256'  = '18232d6675fbef6eb2c429a532f950cefa2bf9c93011e7765e7a215afb92fc85' AND file:mime_type = 'text/javascript']  OR [url:value = 'owpd.s3.amazonaws.com/ow.js' AND file:hashes.'SHA-256'  = '71da6ba2c143f254d622e3242a8edfa084032de2d22dd8119883dd8e95e8f9c3' AND file:mime_type = 'text/javascript']  OR [url:value = 'kdjm.s3.amazonaws.com/kd.js' AND file:hashes.'SHA-256'  = '6aa2fa984653d590dde3dced1b14ab9edafb70fc4e16b5b70b026f4b5501df06' AND file:mime_type = 'text/javascript']  OR [url:value = 'rmbp.s3.amazonaws.com/bp.js' AND file:hashes.'SHA-256'  = 'c68963247b8f2f7a417b3b2b3d28f4be6199107bd672c4d2699c1e8a6647856c' AND file:mime_type = 'text/javascript']  OR [url:value = 'zhpmm.s3.amazonaws.com/zh.js' AND file:hashes.'SHA-256'  = 'e4cbaba9bc3373f231e6887eff1574fb6c108a4be307de625ce3a1a081c14a65' AND file:mime_type = 'text/javascript']  OR [url:value = 'lrydy.s3-ap-southeast-1.amazonaws.com/lr.js' AND file:hashes.'SHA-256'  = '5db87a9863f73e82e78b6d008b0100ac314f7b522067d38eb648c0593d449330' AND file:mime_type = 'text/javascript']  OR [url:value = 'kiyy.s3-ap-southeast-1.amazonaws.com/ki.js' AND file:hashes.'SHA-256'  = '101490bf1f070431188ee2e500d0eed2a6db96311d729072ddaece8929b54efb' AND file:mime_type = 'text/javascript']  OR [url:value = 'oummm.s3.amazonaws.com/ou.js' AND file:hashes.'SHA-256'  = '4ac56258bbe0ef63d11ca6d2582529d4f459c1a2db060a295003fd545c1fef88' AND file:mime_type = 'text/javascript']  OR [url:value = 'gsyyd.s3.amazonaws.com/gs.js' AND file:hashes.'SHA-256'  = '17038fe8114caa408a5c7171794c13f8d9b209522eb34bef7e7b6ed07776311e' AND file:mime_type = 'text/javascript']  OR [url:value = 'qqpm.s3.amazonaws.com/qq.js' AND file:hashes.'SHA-256'  = 'a50cf60a2263f03be76da9c2834b99605c42bcfc0d55717bb23ff56bdcd13100' AND file:mime_type = 'text/javascript']  OR [url:value = 'nxya.s3-ap-southeast-1.amazonaws.com/nx.js' AND file:hashes.'SHA-256'  = '3611b9ee28526392c3119e8c23a859d8ae215e786629add32306e58663030658' AND file:mime_type = 'text/javascript']  OR [url:value = 'zpdk.s3.amazonaws.com/zp.js' AND file:hashes.'SHA-256'  = '10e356120df9c7e33bbb9eb299028d7437f359484879069dd81c99b6026307db' AND file:mime_type = 'text/javascript']  OR [url:value = 'mrptm.s3.amazonaws.com/mr.js' AND file:hashes.'SHA-256'  = '2c1c13395ed7f3834865a8da89801b8b71246c7f7c44a86aad4b23366aecd0a4' AND file:mime_type = 'text/javascript']  OR [url:value = 'ktzmy.s3-ap-southeast-1.amazonaws.com/kt.js' AND file:hashes.'SHA-256'  = '8c90d5e37e5bec5c6bc3a2ead085d1f0607667ff36b5b3141882408c0e4b09a9' AND file:mime_type = 'text/javascript']  OR [url:value = 'nzdpy.s3-ap-southeast-1.amazonaws.com/nz.js' AND file:hashes.'SHA-256'  = 'f7c3832d97c2f07a26f9b51e3fba48a11e3dd9d644e055b46e548d3707d8932f' AND file:mime_type = 'text/javascript'] OR [domain-name:value = 'goodluckpig.space'] OR [domain-name:value = 'goodluckman.space'] OR [domain-name:value = 'goodluckguy.space'] OR [domain-name:value = 'goodluckdog.space'] OR [domain-name:value = 'luckytub.xyz'] OR [domain-name:value = 'luckyguys.xyz'] OR [domain-name:value = 'luckyguys.top'] OR [domain-name:value = 'hknewgood.xyz'] OR [domain-name:value = 'hknewgood.top'] OR [domain-name:value = 'usgoodwinday.top'] OR [domain-name:value = 'usgoodwinday.xyz'] OR [domain-name:value = '2020workaffnew.top'] OR [domain-name:value = 'vip.peopleluck.xyz'] OR [domain-name:value = 'vip.fortunatefellow.xyz'] OR [domain-name:value = 'vip.fortunateman.xyz'] OR [domain-name:value = 'vip.fortunatetime.xyz'] OR [domain-name:value = 'vip.fortunatepeople.xyz'] OR [domain-name:value = 'vip.luckydevil.xyz'] OR [domain-name:value = 'vip.superlucky.xyz'] OR [domain-name:value = 'vip.luckydraw.space'] OR [domain-name:value = 'workcacenter.space'] OR [domain-name:value = 'trkcenter.xyz'] OR [domain-name:value = 'trkingcenter.xyz'] OR [domain-name:value = 'gotrkspace.xyz'] OR [domain-name:value = 'trkmyclk.space'] OR [domain-name:value = 'dbmtrk.xyz'] OR [domain-name:value = 'trkmyclk.xyz']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-02-11T20:19:46.962855Z"
+        },
+        {
+            "type": "threat-actor",
+            "spec_version": "2.1",
+            "id": "threat-actor--6e709162-41b3-4b00-a88d-25b0a01bf910",
+            "created": "2021-02-11T20:19:47.046197Z",
+            "modified": "2021-02-11T20:19:47.046197Z",
+            "name": "ScamClub",
+            "threat_actor_types": [
+                "criminal"
+            ],
+            "roles": [
+                "director"
+            ],
+            "goals": [
+                "Malvertising attacks"
+            ],
+            "sophistication": "innovator",
+            "resource_level": "organization",
+            "primary_motivation": "personal-gain"
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--f9ebb290-ed96-47da-bc5d-96941fc46d2c",
+            "created": "2021-02-11T20:19:46.961844Z",
+            "modified": "2021-02-11T20:19:46.961844Z",
+            "name": "Confiant Inc.",
+            "roles": [
+                "cybersecurity"
+            ],
+            "sectors": [
+                "technology"
+            ],
+            "contact_information": "security@confiant.com"
+        },
+        {
+            "type": "infrastructure",
+            "spec_version": "2.1",
+            "id": "infrastructure--a23a9bf1-4f86-43aa-a306-c8cb4951714a",
+            "created_by_ref": "identity--f9ebb290-ed96-47da-bc5d-96941fc46d2c",
+            "created": "2021-02-11T20:19:47.046462Z",
+            "modified": "2021-02-11T20:19:47.046462Z",
+            "name": "ScamClub Landing Page Domains",
+            "infrastructure_types": [
+                "staging"
+            ]
+        },
+        {
+            "type": "infrastructure",
+            "spec_version": "2.1",
+            "id": "infrastructure--85b2af0f-796e-44b6-9f87-754cad3adf45",
+            "created_by_ref": "identity--f9ebb290-ed96-47da-bc5d-96941fc46d2c",
+            "created": "2021-02-11T20:19:47.046354Z",
+            "modified": "2021-02-11T20:19:47.046354Z",
+            "name": "ScamClub Payload Domains",
+            "infrastructure_types": [
+                "staging"
+            ]
+        },
+        {
+            "type": "domain-name",
+            "spec_version": "2.1",
+            "id": "domain-name--354114f2-5f2c-525f-a9b6-37a9e25a1147",
+            "value": "goodluckpig.space"
+        },
+        {
+            "type": "domain-name",
+            "spec_version": "2.1",
+            "id": "domain-name--1204023e-8175-5bb4-b5f6-1f1a4af1399b",
+            "value": "goodluckman.space"
+        },
+        {
+            "type": "domain-name",
+            "spec_version": "2.1",
+            "id": "domain-name--878cd3d2-176d-5301-96a4-77212a9e8089",
+            "value": "goodluckguy.space"
+        },
+        {
+            "type": "domain-name",
+            "spec_version": "2.1",
+            "id": "domain-name--75c2c69b-3f4e-5d89-82d7-03ca5027a3f5",
+            "value": "goodluckdog.space"
+        },
+        {
+            "type": "domain-name",
+            "spec_version": "2.1",
+            "id": "domain-name--cab31076-b7e3-5b53-beb8-04b4f662c8db",
+            "value": "luckytub.xyz"
+        },
+        {
+            "type": "domain-name",
+            "spec_version": "2.1",
+            "id": "domain-name--1e09c777-3cb6-5965-a2ef-fce74f4ea21a",
+            "value": "luckyguys.xyz"
+        },
+        {
+            "type": "domain-name",
+            "spec_version": "2.1",
+            "id": "domain-name--8ec908ef-3862-5d2a-8372-cb4562b50d31",
+            "value": "luckyguys.top"
+        },
+        {
+            "type": "domain-name",
+            "spec_version": "2.1",
+            "id": "domain-name--c941a393-ebea-508a-952d-821bb1f82dc3",
+            "value": "hknewgood.xyz"
+        },
+        {
+            "type": "domain-name",
+            "spec_version": "2.1",
+            "id": "domain-name--c8add5a9-0c23-532d-8777-56a5cf021a86",
+            "value": "hknewgood.top"
+        },
+        {
+            "type": "domain-name",
+            "spec_version": "2.1",
+            "id": "domain-name--12ce22cf-1587-53a1-96d3-7e9ebcdaf340",
+            "value": "usgoodwinday.top"
+        },
+        {
+            "type": "domain-name",
+            "spec_version": "2.1",
+            "id": "domain-name--56a2d20e-c0fb-5881-87ae-6368d84796c0",
+            "value": "usgoodwinday.xyz"
+        },
+        {
+            "type": "domain-name",
+            "spec_version": "2.1",
+            "id": "domain-name--245f85af-27bc-5192-a5c0-1b33a8dded06",
+            "value": "2020workaffnew.top"
+        },
+        {
+            "type": "domain-name",
+            "spec_version": "2.1",
+            "id": "domain-name--87a9f866-b9ac-5cae-b69f-d824ecbc04b0",
+            "value": "vip.peopleluck.xyz"
+        },
+        {
+            "type": "domain-name",
+            "spec_version": "2.1",
+            "id": "domain-name--b6e4d5e1-780e-5a73-ade7-c7e8da07489b",
+            "value": "vip.fortunatefellow.xyz"
+        },
+        {
+            "type": "domain-name",
+            "spec_version": "2.1",
+            "id": "domain-name--9a7429f2-0def-59d5-9c07-bd89bbcc1cab",
+            "value": "vip.fortunateman.xyz"
+        },
+        {
+            "type": "domain-name",
+            "spec_version": "2.1",
+            "id": "domain-name--74b31ff3-465d-5cfc-a8ca-fd215a016643",
+            "value": "vip.fortunatetime.xyz"
+        },
+        {
+            "type": "domain-name",
+            "spec_version": "2.1",
+            "id": "domain-name--5200e617-7997-56ea-8402-84fcc9441ec3",
+            "value": "vip.fortunatepeople.xyz"
+        },
+        {
+            "type": "domain-name",
+            "spec_version": "2.1",
+            "id": "domain-name--6ab8f37e-c43c-59fe-a624-1249b00d593f",
+            "value": "vip.luckydevil.xyz"
+        },
+        {
+            "type": "domain-name",
+            "spec_version": "2.1",
+            "id": "domain-name--d16b7a80-84c3-5daf-9c6b-6f640da6d481",
+            "value": "vip.superlucky.xyz"
+        },
+        {
+            "type": "domain-name",
+            "spec_version": "2.1",
+            "id": "domain-name--d04e52be-f507-5c5e-aff5-5d5e07b16408",
+            "value": "vip.luckydraw.space"
+        },
+        {
+            "type": "domain-name",
+            "spec_version": "2.1",
+            "id": "domain-name--44e8ccec-e121-5916-9a76-6146a55669f2",
+            "value": "workcacenter.space"
+        },
+        {
+            "type": "domain-name",
+            "spec_version": "2.1",
+            "id": "domain-name--98decb04-b094-552a-bf89-d4154d30cab1",
+            "value": "trkcenter.xyz"
+        },
+        {
+            "type": "domain-name",
+            "spec_version": "2.1",
+            "id": "domain-name--e113f1ae-3e4f-54c9-9db0-31ac328be4ab",
+            "value": "trkingcenter.xyz"
+        },
+        {
+            "type": "domain-name",
+            "spec_version": "2.1",
+            "id": "domain-name--b2db3f59-4bce-5ea2-80aa-7f5a7bcad06e",
+            "value": "gotrkspace.xyz"
+        },
+        {
+            "type": "domain-name",
+            "spec_version": "2.1",
+            "id": "domain-name--6407f0df-3f33-599d-a9aa-d276dd10ccc2",
+            "value": "trkmyclk.space"
+        },
+        {
+            "type": "domain-name",
+            "spec_version": "2.1",
+            "id": "domain-name--218af755-28f9-5ecc-b0b2-920904b9fd77",
+            "value": "dbmtrk.xyz"
+        },
+        {
+            "type": "domain-name",
+            "spec_version": "2.1",
+            "id": "domain-name--5a3d1d42-c8dc-591c-bfbc-68f6184c358c",
+            "value": "trkmyclk.xyz"
+        }
+    ]
+}
